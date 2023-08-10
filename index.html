@@ -1,0 +1,79 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="planner.js" defer=""></script>
+    <title>Pack Planner</title>
+  
+    <style>
+        span{
+            display: block; 
+        }
+  
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+  
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+  
+        div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 400px;
+        }
+  
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+  
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+  
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+  
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Pack Planner</h1>
+      <div>
+        <form>
+            <textarea name="input" id="" cols="30" rows="10"> </textarea>
+            <button type="submit">Enter</button>
+        </form>
+        <p class="output"></p>
+      </div>
+    </main>
+  </body></html>
